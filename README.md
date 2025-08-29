@@ -27,27 +27,6 @@ cd Phishing-URL-Detection-API
 Run the server:
 uvicorn app:app --reload
 
-📤 Usage
-
-Send a POST request with URL(s):
-
-✅ Example (Single URL)
-curl -X POST "http://127.0.0.1:8000/predict" \
--H "Content-Type: application/json" \
--d '{"urls": ["https://google.com"]}'
-
-✅ Example (Multiple URLs)
-curl -X POST "http://127.0.0.1:8000/predict" \
--H "Content-Type: application/json" \
--d '{"urls": ["https://google.com", "http://phishy-site.biz"]}'
-
-✅ Example Response
-{
-  "results": [
-    {"url": "https://google.com", "prediction": "Safe"},
-    {"url": "http://phishy-site.biz", "prediction": "Phishing"}
-  ]
-}
 
 🧠 How It Works
 
