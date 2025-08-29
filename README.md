@@ -20,7 +20,7 @@ Useful for cybersecurity research, awareness, and practical phishing detection t
 
 ⚙️ Installation
 1.Clone the repo:
-git clone https://github.com/YOUR_USERNAME/Phishing-URL-Detection-API.git
+git clone https://github.com/Elliotshelby/Phishing-URL-Detection-API.git
 cd Phishing-URL-Detection-API
 2.Install dependencies:
 3.pip install -r requirements.txt
